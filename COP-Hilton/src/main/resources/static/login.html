@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Hilton</title>
+
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+
+<div class="materialContainer">
+    <div class="box">
+        <div class="title">Hilton-Login</div>
+        <form action="/login.html" method="post">
+            <div class="input">
+                <label for="name">Username</label>
+                <input type="text" name="username" id="name">
+                <span class="spin"></span>
+            </div>
+            <div class="input">
+                <label for="pass">Password</label>
+                <input type="password" name="password" id="pass">
+                <span class="spin"></span>
+            </div>
+            <div class="button login">
+                <button type="submit">
+                    <span>Login</span>
+                    <i class="fa fa-check"></i>
+                </button>
+            </div>
+        </form>
+        <a href="javascript:" class="pass-forgot">Forget Password</a>
+    </div>
+
+    <div class="overbox">
+        <div class="material-button alt-2">
+            <span class="shape"></span>
+        </div>
+        <div class="title">Sign Up</div>
+        <div class="input">
+            <label for="regname">User name</label>
+            <input type="text" name="regname" id="regname">
+            <span class="spin"></span>
+        </div>
+        <div class="input">
+            <label for="regpass">Password</label>
+            <input type="password" name="regpass" id="regpass">
+            <span class="spin"></span>
+        </div>
+        <div class="input">
+            <label for="reregpass">Confirm Password</label>
+            <input type="password" name="reregpass" id="reregpass">
+            <span class="spin"></span>
+        </div>
+        <div class="button">
+            <button>
+                <span>Submit</span>
+            </button>
+        </div>
+    </div>
+
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/index.js"></script>
+
+</body>
+</html>
